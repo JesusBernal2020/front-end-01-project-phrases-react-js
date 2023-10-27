@@ -1,0 +1,116 @@
+.footer {
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bt1 {
+  background-image: url(/public/images/planet-1.png);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bt2 {
+  background-image: url(/public/images/planet-2.png);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bt3 {
+  background-image: url(/public/images/planet-3.png);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bt4 {
+  background-image: url(/public/images/planet-4.png);
+  height: 250px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text__footer {
+  z-index: 10;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  font-size: 13px;
+}
+
+@media (min-width: 425px) {
+  .bt1 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .bt2 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .bt3 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .bt4 {
+    height: 300px;
+    width: 100%;
+  }
+
+  .text__footer {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bt1 {
+    height: 350px;
+    width: 100%;
+  }
+
+  .bt2 {
+    height: 350px;
+    width: 100%;
+  }
+
+  .bt3 {
+    height: 350px;
+    width: 100%;
+  }
+
+  .bt4 {
+    height: 350px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .text__footer {
+    font-size: 20px;
+  }
+}
