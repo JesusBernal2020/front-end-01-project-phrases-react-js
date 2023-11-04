@@ -1,8 +1,43 @@
-# React + Vite
+# 01 - Project - Phrases Space
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="https://reactjs.org/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="200" alt="React.js Icon">
+  </a>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/Completed%20in-June-blue" alt="Completed in June">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Project Description](#project-description)
+- [Project Status](#project-status)
+- [Technologies Used](#technologies-used)
+- [Project Access](#project-access)
+- [Developer](#developer)
+
+## Project Description
+
+This project is a space phrases app created with React.js. It displays various quotes related to the universe sourced from different space organizations. Users can generate and read different random space-related phrases with the click of a button.
+
+## Project Status
+
+The project is considered completed.
+
+## Technologies Used
+
+- [React.js](https://es.react.dev)
+- [Vite](https://vitejs.dev/)
+
+## Project Access
+
+You can access the deployed project on [Phrases Space](https://space-universe-phrases.netlify.app). Additionally, you have the option to clone the project and run it locally using the command `npm install`.
+
+## Developer
+
+This project was developed by Jesus P. Bernal.
+
+- [Portfolio](https://jesusbernaldev.tech)
