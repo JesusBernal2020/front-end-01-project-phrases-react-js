@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
 import "./styles/FooterStyle.css";
 
 const Footer = ({ author, planetBg }) => {
@@ -9,6 +9,11 @@ const Footer = ({ author, planetBg }) => {
       </div>
     </footer>
   );
+};
+
+Footer.propTypes = {
+  author: PropTypes.object,
+  planetBg: PropTypes.array,
 };
 
 export default Footer;

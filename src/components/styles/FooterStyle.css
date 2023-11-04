@@ -1,16 +1,9 @@
-.footer {
-  height: 250px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.app__footer {
+  height: 300px;
 }
 
 .bt1 {
   background-image: url(/public/images/planet-1.png);
-  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -21,7 +14,6 @@
 
 .bt2 {
   background-image: url(/public/images/planet-2.png);
-  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -32,7 +24,6 @@
 
 .bt3 {
   background-image: url(/public/images/planet-3.png);
-  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -43,7 +34,6 @@
 
 .bt4 {
   background-image: url(/public/images/planet-4.png);
-  height: 250px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -64,22 +54,22 @@
 @media (min-width: 425px) {
   .bt1 {
     height: 300px;
-    width: 100%;
+    width: 350px;
   }
 
   .bt2 {
     height: 300px;
-    width: 100%;
+    width: 350px;
   }
 
   .bt3 {
     height: 300px;
-    width: 100%;
+    width: 350px;
   }
 
   .bt4 {
     height: 300px;
-    width: 100%;
+    width: 350px;
   }
 
   .text__footer {
@@ -90,27 +80,27 @@
 @media (min-width: 768px) {
   .bt1 {
     height: 350px;
-    width: 100%;
+    width: 400px;
   }
 
   .bt2 {
     height: 350px;
-    width: 100%;
+    width: 400px;
   }
 
   .bt3 {
     height: 350px;
-    width: 100%;
+    width: 400px;
   }
 
   .bt4 {
     height: 350px;
-    width: 100%;
+    width: 400px;
   }
 }
 
 @media (min-width: 1440px) {
   .text__footer {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

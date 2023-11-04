@@ -31,8 +31,8 @@ function App() {
           handleChangePhrase={handleChangePhrase}
           phrases={phrase.phrase}
         />
-        <Footer author={phrase.author} planetBg={planetBg} />
       </section>
+      <Footer author={phrase.author} planetBg={planetBg} />
     </main>
   );
 }

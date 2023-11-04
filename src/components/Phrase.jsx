@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import PropTypes from "prop-types";
+import btn from "/public/images/arrown.png";
 import "./styles/PhraseStyle.css";
 
 const Phrase = ({ phrases, handleChangePhrase }) => {
@@ -8,10 +9,15 @@ const Phrase = ({ phrases, handleChangePhrase }) => {
         <p>{phrases}</p>
       </article>
       <span className="btn" onClick={handleChangePhrase}>
-        <img src="/public/images/arrown.png" alt="" />
+        <img src={btn} alt="" />
       </span>
     </section>
   );
+};
+
+Phrase.propTypes = {
+  phrases: PropTypes.object,
+  handleChangePhrase: PropTypes.func,
 };
 
 export default Phrase;
