@@ -34,7 +34,7 @@ The project is considered completed.
 
 ## Project Access
 
-You can access the deployed project on [Phrases Space](https://space-universe-phrases.netlify.app). Additionally, you have the option to clone the project and run it locally using the command `npm install`.
+You can access the deployed project on [Phrases Space](https://space-prhases.netlify.app). Additionally, you have the option to clone the project and run it locally using the command `npm install`.
 
 ## Developer
 
