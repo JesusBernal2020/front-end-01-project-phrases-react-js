@@ -12,8 +12,8 @@ const Footer = ({ author, planetBg }) => {
 };
 
 Footer.propTypes = {
-  author: PropTypes.object,
-  planetBg: PropTypes.array,
+  author: PropTypes.string,
+  planetBg: PropTypes.string,
 };
 
 export default Footer;

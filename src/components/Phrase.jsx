@@ -16,7 +16,7 @@ const Phrase = ({ phrases, handleChangePhrase }) => {
 };
 
 Phrase.propTypes = {
-  phrases: PropTypes.object,
+  phrases: PropTypes.string,
   handleChangePhrase: PropTypes.func,
 };
 

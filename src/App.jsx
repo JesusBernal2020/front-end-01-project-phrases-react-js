@@ -7,6 +7,7 @@ import { getRamdom } from "./utils/random";
 import Phrase from "./components/Phrase";
 import Footer from "./components/Footer";
 import Title from "./components/Title";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   const bgimgs = ["bg1", "bg2", "bg3", "bg4"];
@@ -22,7 +23,6 @@ function App() {
     setPlanetBg(getRamdom(bgPlanets));
   };
 
-  console.log(phrase);
   return (
     <main className={`app ${imageBg}`}>
       <section className="app__container">
@@ -33,6 +33,7 @@ function App() {
         />
       </section>
       <Footer author={phrase.author} planetBg={planetBg} />
+      <CustomCursor />
     </main>
   );
 }

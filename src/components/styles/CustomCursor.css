@@ -1,0 +1,13 @@
+.custom-cursor {
+  position: fixed;
+  z-index: 9999; /* Asegúrate de que esté sobre otros elementos */
+  pointer-events: none;
+  user-select: none;
+  transition: transform 0.15s ease-out;
+}
+
+.custom-cursor img {
+  width: 40px; /* Ajusta el tamaño de tu imagen de cursor */
+  height: 40px; /* Ajusta el tamaño de tu imagen de cursor */
+  /* Otros estilos si son necesarios */
+}
